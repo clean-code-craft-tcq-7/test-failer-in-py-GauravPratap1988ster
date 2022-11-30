@@ -8,6 +8,6 @@ def print_color_map():
     return len(major_colors) * len(minor_colors)
 
 
-result = print_color_map()
-assert(result == 25)
+result,num = print_color_map()
+assert(result == num)
 print("All is well (maybe!)\n")
